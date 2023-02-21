@@ -1,7 +1,7 @@
 <?php
     // ini adalah perintah untuk mencetak pesan ke layar 
-    echo "Hello world";
-
+    echo "<h1>Biodata Saya</h1>";
+    
     /* 
     - ini adalah contoh deklarasi variable dengan tipe data.
     - teks, bilngan bulat, bilangan desimanl, desimal, boleean.
@@ -51,7 +51,7 @@
         $prodi = "Akuntansi";
     } 
 
-    echo "prodi :".$prodi;
+    echo "Prodi :".$prodi;
     
 
 ?>
