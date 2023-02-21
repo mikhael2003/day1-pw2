@@ -35,6 +35,23 @@
     echo "Tinggi :".$tinggi;  echo "</li>";
   
     echo "</ol>";
+
+
+    $kode_prodi = substr($npm, 4, 2);
+    $prodi = "Informatika";
+    if($kode_prodi == "25") {// kode npm = 25
+        $prodi = "Informatika";
+    }else if($kode_prodi == "24") {// kode npm = 24
+        $prodi = "Sistem Informasi";
+    }else if($kode_prodi == "27") {// kode npm = 27
+        $prodi = "Teknik Elektro";
+    }else if($kode_prodi == "20") {// kode npm = 20
+        $prodi = "Manejemen";
+    }else if($kode_prodi == "21") {// kode npm = 21
+        $prodi = "Akuntansi";
+    } 
+
+    echo "prodi :".$prodi;
     
 
 ?>
